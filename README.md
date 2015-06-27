@@ -1,5 +1,7 @@
 # stopWatch
 
+StopWatch is a JavaScript Application.
+
 The application has the following features :
 
 1) Multiple stop watches can be created on a single page.
