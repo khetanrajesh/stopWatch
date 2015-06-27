@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+
+<html>
+    
+    <head>
+    
+            <script type="text/javascript"  src="sw.js" ></script>
+            <script type="text/javascript"  src="performAction.js" ></script>
+             <link rel="stylesheet" type="text/css" href="sw.css"/>
+            <meta charset="utf-8"/>
+
+    </head>
+    
+    <body > 
+        
+        <div class ="buttonAdd" onclick=newSW()>
+           Add a SW
+        </div>    
+       
+
+        <div id ="template" style="display:none" class="template">   
+            
+            <div  name="d1" class="current" id="Display" > 00.00.00.00</div>
+            
+            <div class="outer" ><div  name="d2" class="splits" id="Display2"></div></div>
+            
+            <form action=""  class="form">
+                
+                <input type="button" name="g1" onclick="execute(this,'start');disabler(this,'start'); " class="actionButton" id="start" value="start" >
+                <input type="button" name="g1" onclick="execute(this,'stop') ;disabler(this,'stop');"  class="actionButton" id ="stop" value="stop" >
+                <input type="button" name="g1" onclick="execute(this,'reset') ;disabler(this,'reset');"  class="actionButton" id="reset" value="reset" >
+                <input type="button" class="split" onclick="execute(this,'split'); " value="split"  class="actionButton" disabled>
+                
+            </form>
+           
+        </div>  
+
+    </body>
+</html>

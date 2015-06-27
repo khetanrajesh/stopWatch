@@ -1,0 +1,80 @@
+body {
+    
+    background-color: #3F2860 ;
+    
+    
+}
+
+
+.buttonAdd{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    background-color: #EF6D3B ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+.template{
+    
+    margin:20px;
+    margin-left: 100px;
+    
+    
+}
+
+.split{
+
+    margin:20px;
+  
+}
+
+.splits {
+    
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+   
+    background-color: #90C5A9  ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+
+.outer {
+    
+    margin:0px;
+    margin-left: 0px;
+
+}
+
+
+.current {
+    
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    background-color: #7A9A95  ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+
+    
+}
+
+.actionButton{
+    
+ 
+    
+}
+
+
+
+
+ 
